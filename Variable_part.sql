@@ -24,7 +24,7 @@ select @number as 'Number';
 set @number = @number-50;
 select @number as 'Number';
 
-select * from employee_info;
+select * from employee_info; 
  --Assign value from DB data
 declare @name varchar(50) , @salary decimal (7,2);
 select @name = empName , @salary = empSalary from   employee_info;
