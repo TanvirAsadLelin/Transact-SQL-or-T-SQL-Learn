@@ -7,7 +7,7 @@ go
 --Start batch
 declare @name varchar(50);
 select @name = 'Lelin';
-go
+go 
 --End batch
 
 --Start batch
